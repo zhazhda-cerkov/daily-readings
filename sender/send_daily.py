@@ -91,8 +91,8 @@ def send_whatsapp_message(message_text, image_file_binary, max_attempts):
 
         return False
 
-    image_sent = send_image()
-    print()
+    #image_sent = send_image()
+    #print()
     text_sent = send_text()
 
     return image_sent and text_sent
