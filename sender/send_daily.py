@@ -19,7 +19,7 @@ def is_success_response(response):
 
 def send_whatsapp_message(message_text, image_file_binary, max_attempts):
     api_url = "https://7107.api.greenapi.com"
-    media_url = "https://7107.media.greenapi.com"
+    media_url = "https://7107.api.greenapi.com"
 
     id_instance = os.environ["GREEN_API_ID_INSTANCE"]
     api_token_instance = os.environ["GREEN_API_TOKEN_INSTANCE"]
